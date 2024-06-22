@@ -1,0 +1,123 @@
+#form-screen{
+    position: absolute;
+    top: 9%;
+    left: 55%;
+    width: 40%;
+    height: 60%;
+    border-radius: 3%;
+    transition-duration: 1s;
+    background-color: inherit;
+    backdrop-filter: blur(45px);
+    box-shadow: 1px 1px 10px black;
+}
+#icon{
+    border: 1px solid white;
+    position: relative;
+    left: 35%;
+    top: 3%;
+    width: 25%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+#form-main-container{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    left: 3%;
+    top: 8%;
+    width: 94%;
+    height: 37%;
+}
+
+.form-container{
+    /* border: 1px blue solid; */
+    display: flex;
+    flex-flow: column;
+    height: 94%;
+    margin-top: 1%;
+    margin-left: 0.5%;
+}
+#label-container{
+    width: 30%;
+}
+#input-container{
+    /* border: 1px solid red; */
+    width: 62%;
+    /* padding-bottom: 10%; */
+}
+.labels{
+ color: rgb(3, 3, 3);
+ font-size: 1.2rem;
+ margin: 5%;
+}
+.inputs{
+    border: 1px solid blue;
+    position: relative;
+    /* bottom: 60%; */
+    top: 4%;
+    width: 80%;
+    height: 18%;
+    margin-left: 2%;
+    margin-bottom: 7%;
+}
+#back{
+    position: absolute;
+    top: 0;
+    left: 90%;
+    color:aquamarine;
+    width: 10%;
+    height: 10%;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 1s;
+    background-image: linear-gradient(10deg, rgba(99, 170, 211, 0.1), steelblue, rgba(153, 240, 243, 0.3));
+    box-shadow: 1px 2px 70px grey;
+    cursor: pointer;
+}
+#back:hover{
+    border: 2px solid white;
+    background-image: linear-gradient(-80deg, rgba(99, 170, 211, 0.1), steelblue, rgba(153, 240, 243, 0.3));
+}
+
+#button-container{
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    left: 3%;
+    width: 95%;
+    height: 29%;
+}
+#small-text{
+    position: relative;
+    top: 70%;
+}
+#signup{
+position: relative;
+top: 85%;
+ color:  blue;
+ font-size: 0.8rem;
+ height: 16%;
+ border: none;
+ background: none;
+}
+.form-buttons{
+    position: relative;
+    top: 48%;
+    margin-left: 1.8%;
+    color: aquamarine;
+    width: 16%;
+    height: 40%;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(10deg, rgba(99, 170, 211, 0.1), steelblue, rgba(153, 240, 243, 0.3));
+    box-shadow: 1px 1px 7px black;
+}
+.form-buttons:hover{
+    transform: scale(1.1);
+}
