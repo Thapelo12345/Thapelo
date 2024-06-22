@@ -1,0 +1,184 @@
+@font-face {
+  font-family: myFont;
+  src: url("./Font/NOPIA DEMO.ttf");
+}
+@font-face {
+  font-family: myfont1;
+  src: url("./Font/AbrilFatface-Regular.ttf");
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    position: relative;
+    padding: 1%;
+    width: auto;
+    height: 98vh;
+    background-color: rgba(20, 44, 46, 0.7);
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 7vh;
+    margin: 0;
+    background: none;
+}
+  .nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    width: 8%;
+    padding: 1%;
+    background-image: linear-gradient(32deg, steelblue, cyan, white);
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-left: 18%;
+    z-index: 1;
+  }
+.nav-link:hover{
+    box-shadow: 1px 1px 30px lime, 1px 2px 32px purple;
+}  
+#main-title{
+    position: relative;    
+    top: 40%;
+    font-size: 4rem;
+    font-family: myFont;
+    width: max-content;
+    /* color: whitesmoke; */
+    color: #fff;
+    mix-blend-mode: overlay;
+    text-shadow: 1px 3px 1px yellow;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+#date-venue{
+  position: absolute;
+  top: 80%;
+  left: 0;
+  font-size: 1.2em;
+  color: white;
+  z-index: 1;
+}
+#main-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+  marquee {
+    height: 5%;
+    z-index: -1;
+    direction: initial;
+  }
+
+  #img-container{
+    position: relative;
+    top: 40%;
+  }
+  .band{
+    width: 16%;
+    height: 40%;
+    z-index: -1;
+    border-radius: 6%;
+    box-shadow: 4px 4px 25px black;
+    margin: 3%;
+  }
+
+  #preview-title{
+    position: relative;
+    left: 30%;
+    font-size: 2rem;
+    color: white;
+    justify-self: center;
+    width: max-content;
+    text-shadow: 1px 1px 0 purple;
+    box-shadow: 1px 4px 10px black;
+    border-radius: 5px;
+    z-index: -1;
+    background-image: linear-gradient(32deg, steelblue, cyan, rgb(15, 74, 97));
+
+  }
+  #previewer-video{
+    position: relative;
+    left: 25%;
+    width: auto;
+    justify-self: center;
+    margin: 2%;
+    border-radius: 9px;
+    box-shadow: 1px 2px 30px grey;
+    z-index: -1;
+  }
+  
+  form{
+    margin: 1%;
+  }
+  #list-container{
+    position: relative;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    background-color: rgba(40, 136, 214, 0.8);
+    overflow: hidden;
+  }
+  #background-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    mix-blend-mode: darken;
+  }
+  
+  #peformances-title{
+    text-align: center;
+    /* font-family: myfont1; */
+    color: whitesmoke;
+    z-index: 1;
+    margin: auto;
+    background-image: linear-gradient(32deg, steelblue, cyan, rgb(15, 74, 97));
+    text-shadow: 1px 1px 0 purple;
+    box-shadow: 1px 4px 10px black;
+    border-radius: 5px;
+  }
+ 
+  #bookings-title{
+    position: relative;
+    left: 20%;
+    font-size: 1em;
+    color: whitesmoke;
+    background-image: linear-gradient(32deg, steelblue, cyan, rgb(15, 74, 97));
+    text-shadow: 1px 1px 0 purple;
+    box-shadow: 1px 4px 10px black;
+    width: max-content;
+  }
+  p{
+    width: max-content;
+    margin-left: 2%;
+  }
+  li{
+    width: 24%;
+    z-index: 0;
+    font-size: 1rem;
+    color: white;
+    margin: 0.5%;
+    font-family: Lora, sans-serif;
+  }
+   li:hover{
+    z-index: 2;
+    font-size: 1.2rem;
+    width: max-content;
+    transform: scale(1.5) translate(18%, 0);
+    backdrop-filter: blur(35px);
+    box-shadow: 4px 3px 4px rgb(60, 201, 211);
+    text-shadow: 1px 2px 0 black;
+    border-radius: 5px;
+  }
+ 

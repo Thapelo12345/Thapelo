@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Concert Page</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css"> 
+ <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+    <header id = 'header'>
+
+  <nav id = 'nav-bar'>
+
+    <a class = 'nav-link' href = '#previewer-video'>preview</a> 
+    <a class = 'nav-link' href = '#bookings'>Go-To-bookings</a>
+    <a class = 'nav-link' href = '#header'>Back</a>  
+  </nav>
+
+  <h1 id = main-title><u>MUSIC FESTIVAL OF THE DECADE</h1></u>
+
+  <img id = 'main-image' src= "./Musical\download (1).jpeg" alt="">
+
+  <div id = 'img-container'>
+
+    <marquee>
+  <img class = 'band'  src = "./Musical\images (27).jpeg" alt = 'band image'>
+  <img class = 'band'  src = "./Musical\images (28).jpeg" alt = 'band image'>
+  <img class = 'band'  src = "./Musical\images (29).jpeg" alt = 'band image'> 
+  <img class = 'band'  src = "./Musical\images (30).jpeg" alt = 'band image'>
+  <img class = 'band'  src = "./Musical\images (31).jpeg" alt = 'band image'>
+  </marquee>   
+ <h4 id = 'date-venue'>Date: 29 APRIL 2010 Venue : Johannesburg FNB Stadium</h4>
+  </div>  
+
+</header>
+
+<h2 id = 'preview-title'>HERE IS A LITTLE THE PREVIEW</h2>
+
+<video id = 'previewer-video'controls loop>
+  <source src = "Love-Never-Felt-So-Good-Intro-Live-Arrangement-(Be-On-It).mp4" type = 'video/mp4'>
+  <source src = "https://youtu.be/2ZMvfn389c8?si=-jbOcH1vFFzuzdKT" type = "video/webm">
+  Your Browser Deos not Support This media play
+  </video>
+
+<form>
+  <input type="email" placeholder="Enter Email address">
+  <button id = 'submit-button'>Submit</button>
+</form>
+
+<section id = 'live-bands'>
+
+    <div id = 'list-container'>
+
+  <video id = 'background-video' autoplay loop muted src= "./Videos/Chris Brown - Summer Too Hot (Live Arrangement By Cj Knowles).mp4" type = 'video/mp4'></video>
+
+ <h2 id = 'peformances-title'>live performances from:</h2>
+ <ul>
+<li>Aerosmith</li>
+<li>The Allman Brothers Band</li>
+<li>Amadou and Mariam</li>
+<li>The Andrews Sisters</li>
+<li>The Animals</li>
+<li>Arcade Fire</li>
+<li>The Bandit</li>
+<li>The Beach Boys</li>
+<li>The Beastie Boys</li>
+<li>The Beatles</li>
+<li>The Bee Gees</li>
+<li>Big Star</li>
+</ul>
+ 
+</div>   
+</section>  
+
+  <section id = 'bookings'>
+<h5 id = 'bookings-title' ><u>FOR TICKETS OR BOOKINGS</u></h5>
+  <p>For bookings and tickets can be ordered online or nearest store,or go to link:
+  <a id = 'book-link' href = 'google.com' target = '_black'>www.musilovesfestival.com</a></p>
+  <p>for more information contact: 089 675 7821</p>
+</section>
+</body>
+</html>
