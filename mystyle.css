@@ -319,8 +319,9 @@ transition-duration: 2s;
     height: 50vh;
     margin: 1%;
     transform: scale(.5, .5);
-    opacity: .2;
+    /* opacity: .2; */
     transition-duration: 1s;
+    transform-style: preserve-3d;
     border-radius: 10px;
 }
 
@@ -452,6 +453,7 @@ strong{
     height: 96%;
     border-radius: 50%;
     overflow: hidden;
+    transform-style: preserve-3d;
     transform: rotateY(0deg);
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.3 ), rgba(0, 0, 0, 0.1));
     z-index: 1;
