@@ -9,8 +9,8 @@ window.addEventListener('scroll', ()=>{
 
            $(item.firstElementChild).css({
             // scale: "1",
-            transform: "scale(1, 1)",
-            opacity: "1"
+            transform: "scale(1, 1)"
+            // opacity: "1"
            })
 
            $(item.lastElementChild).css({
@@ -23,8 +23,8 @@ window.addEventListener('scroll', ()=>{
 
             $(item.firstElementChild).css({
                 // scale: ".5",
-                transform: "scale(.5, .5)",
-                opacity: ".2"
+                transform: "scale(.5, .5)"
+                // opacity: ".2"
             })
 
             $(item.lastElementChild).css({
